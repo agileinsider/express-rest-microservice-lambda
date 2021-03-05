@@ -1,0 +1,35 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/array-type": [
+      2,
+      {}
+    ],
+    "@typescript-eslint/await-thenable": [
+      0
+    ],
+    "no-console": [
+      0
+    ],
+    "require-await": [
+      0
+    ]
+  }
+}
